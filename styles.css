@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  background-image: url('https://planetagracza.pl/wp-content/uploads/2016/07/Albion-Online.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+/*body {
+  background-image: url('https://planetagracza.pl/wp-content/uploads/2016/07/Albion-Online.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}*/
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.button-albion{
+   background-color: rgba(250, 235, 215, 0);
+   border:none;
+  max-width: 15em;
+  max-height: 17em;
+  /*padding-right: 7em;
+  margin-top: 2em;*/
+  align-content: initial;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.button{
+   padding: 0.3em;
+  /*margin: 0.8em;*/
+  font-size: large;
+  font-family: 'Cinzel', serif;
+  background-color: rgba(255, 136, 0, 0.541);
+  border-radius: 0.5em;
+  border: 0.35em rgba(58, 17, 2, 0.788);
+  border-style: double none;
+}
+
+.button::placeholder{
+  color: black;
+}
+
+.titles1__h1 {
+  color: rgb(96, 0, 0);
+  font-size: 5em;
+  font-weight: 1000;
+  background-color: darkorange;
+  width: 20em;
+  height: 5vh;
+  font-family: 'Cinzel', serif;
+  font-weight: 350;
+  padding-left: 12em;
+  margin-top: 0.3em;
+  text-shadow: 2px 2px 3px rgb(255, 255, 80);
+}
+
+.welcome-title__h2 {
+  color: rgb(96, 0, 0);
+  font-size: 2em;
+  background-color: darkorange;
+  width: 55vw;
+  height: 3vh;
+  font-family: 'Cinzel', serif;
+  padding-left: 25em;
+  margin-top: 0.2em;
+  text-shadow: 2px 2px 3px rgb(255, 255, 80);
+}
+
+.title-page__p{
+  color: chocolate;
+  text-shadow: 1px 1px 3px #000,  1px 1px 3px #000;
+  font-size: 2.2em;
+  width: 100vw;
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
+  padding-left: 1em;
+  margin-top: 2em;
+  text-align: start;
+}
+
+.filling-albion{
+  font-size: 10.5px;
+}
+
+.filling-albion__p{
+  color:rgb(142, 80, 3);
+  font-size: 2em;
+  font-weight: 1000;
+  font-family: 'Cinzel', serif;
+  width: 100vw;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 2px rgb(0, 0, 0);
+}
+
+.filling-albion__li{
+  font-size: 2.5em;
+ color: darkorange;
+ width: 100vw;
+ height: 10vh;
+ font-family: 'Cinzel', serif;
+ padding-top: -0.3em;
+ text-shadow: 1px 1px 3px rgb(58, 17, 2), 1px 1px 3px rgb(58, 17, 2);
+
+}
+
+.filling-albion__h3{
+  color:rgb(255, 140, 0);
+  font-size: 2em;
+  font-weight: bolder;
+  font-family: 'Cinzel', serif;
+  text-shadow: 1px 1px rgb(87, 4, 4);
+  padding-right: 2em;
+  margin-top: 2.5em;
+  background-color: rgba(255, 140, 0, 0.349);
+  width: 90vw;
+}
+
+.susc-albion__h3{
+  font-size: small;
+  color:rgb(197, 123, 45);
+  font-family: 'Cinzel', serif;
+}
+.susc-albion__h3 span {
+  color: rgb(255, 173, 80);
+}
+
+.login-form__input{
+  color:rgb(5, 0, 0);
+  font-family: 'Cinzel', serif;
+  font-weight: 1000;
+  background-color: rgba(255, 136, 0, 0.33);
+  border-radius: 0.5em;
+ margin: 1em;
+ padding: 0.3em;
+ border-color: rgba(255, 136, 0, 0.33);
+}
+
+.login-form__input::placeholder{
+  color:black
+}
+
+.register__h2{
+  font-family: 'Cinzel', serif;
+  color: darkorange;
+  text-shadow: 1px 1px rgb(58, 17, 2);
+}
+
+.albion1__img{
+  float: right;
+  position: relative;
+  top: -10em;
+}
+
+.copyright-albion{
+  font-size: 20px;
+}
+
+.copyright-albion__h4{
+  color:#000;
+ font-size: 1em;
+ background-color: darkgoldenrod;  
+ padding-right: 2em;
+ margin: 2em;
+ margin-top: 2em;
+}
